@@ -1,3 +1,9 @@
+  <div class="pagination">
+      <button (click)="anteriorPagina.emit()">Anterior</button>
+      <span>Página {{ currentPage }}</span>
+      <button (click)="siguientePagina.emit()">Siguiente</button>
+    </div>
+ 
 <footer class="py-5 bg-dark col-12">
     <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Creado en VSCode por: 
     <span class="text-warning">Mateo Rodríguez López, Jaime Enrique Davila Zuazo </span>

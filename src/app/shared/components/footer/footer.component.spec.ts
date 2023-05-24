@@ -1,5 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { FooterComponent } from './footer.component';
 
 describe('FooterComponent', () => {
@@ -20,4 +23,5 @@ describe('FooterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });
